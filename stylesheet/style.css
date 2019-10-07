@@ -770,18 +770,21 @@ padding-left: 3%;
 
 .contactus-p-header{
   font-weight: bold;       
-  margin-bottom: 1px;
+  margin-bottom: 8px;
+  margin-top: 22px;
 }
 
 .contact-us-img{
   height: 20px;
   margin-right: 8px;
+  vertical-align: top;
   width: 20px; 
 }
 
 .contact-us-img-2{
   height: 20px;
   margin-right: 13px; 
+  vertical-align: top;
 }
 
 .contact-us-mobile-div{
