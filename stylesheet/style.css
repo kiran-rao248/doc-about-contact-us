@@ -810,6 +810,14 @@ padding-left: 3%;
   width: 85%;
 } 
 
+.about-us-second-column-p-header{
+  font-size: 18px;
+  margin-left: 3%;
+  margin-bottom: 0;
+  margin-top: 7%;
+  width: 85%;
+} 
+
 .about-us-second-column-p-mobile{
   margin-top: 0;
   margin-left: 3%;
@@ -824,7 +832,7 @@ padding-left: 3%;
 .aboutus-second-row-2-desktop{
   background-color: #2E5AA9;
   color: #fff; 
-  height: 390px;
+  height: 435px;
 }
  
 .row.aboutus-sub-row{
@@ -836,7 +844,7 @@ margin-left: 0;
   background-image: url("images/about-us-family-doctoroncall.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 390px;
+    height: 435px;
 }
 
 .aboutus-row3-img{
@@ -864,3 +872,7 @@ margin-left: 0;
 .about-us-position{
   text-align: center;
 }  
+
+.this{
+
+}
