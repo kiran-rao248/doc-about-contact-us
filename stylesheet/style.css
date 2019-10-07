@@ -737,7 +737,7 @@ ______ ____   ____ _______ ______ _____
   margin-top: -18px;
 }
 
-.contactus-title h2{
+.contactus-title h1{
   padding-top: 5%;
   text-align: center;
 }
@@ -795,7 +795,7 @@ padding-left: 3%;
 
  
 .about-us-video{
-  height: 190px; 
+  height: 350px; 
   text-align: center; 
   margin-top: 30px;
 }  
@@ -810,15 +810,26 @@ padding-left: 3%;
   width: 85%;
 } 
 
-.about-us-second-column-p-header{
-  font-size: 18px;
+.about-us-second-column-p-head{
   margin-left: 3%;
   margin-bottom: 0;
-  margin-top: 7%;
   width: 85%;
 } 
 
-.about-us-second-column-p-mobile{
+.about-us-second-column-p-header{ 
+  margin-left: 3%;
+  margin-bottom: 0; 
+  width: 85%;
+} 
+
+.about-us-second-column-p-mobile{ 
+  margin-top: 0;
+  margin-left: 3%;
+  margin-bottom: 0;
+  width: 85%;
+}
+
+.about-us-second-column-p-mobile-2{ 
   margin-top: 0;
   margin-left: 3%;
   margin-bottom: 0;
@@ -832,19 +843,20 @@ padding-left: 3%;
 .aboutus-second-row-2-desktop{
   background-color: #2E5AA9;
   color: #fff; 
-  height: 435px;
-}
+  height: 425px;
+} 
  
 .row.aboutus-sub-row{
-width: 100%;
-margin-left: 0;
+  margin-bottom: -14px;
+  margin-left: 0;
+  width: 100%; 
 }
 
 .aboutus-row1-img{
   background-image: url("images/about-us-family-doctoroncall.jpg");
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 435px;
+    height: 425px;
 }
 
 .aboutus-row3-img{
@@ -873,6 +885,11 @@ margin-left: 0;
   text-align: center;
 }  
 
-.this{
-
+@media(min-width:1077px){
+  .about-us-second-column-p-header {
+    margin-left: 3%;
+    margin-bottom: 0;
+    margin-top: 5%;
+    width: 85%;
+}
 }
