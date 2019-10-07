@@ -804,22 +804,43 @@ padding-left: 3%;
 .about-us-second-column-p{
   margin-left: 3%;
   width: 85%;
-}
-
-.aboutus-second-row-1{ 
-}
-
-.aboutus-second-row-1 img{
-  width: 57%;
-}
-
+} 
 .aboutus-second-row-2{
   background-color: #2E5AA9;
-  color: #fff;
-  display: inline-block;  
+  color: #fff; 
+  height: 350px;
+}
+ 
+.row.aboutus-sub-row{
+width: 100%;
+margin-left: 0;
 }
 
-.aboutus-second-row-img{
-  width: 103%;
-    height: 338px;
+.aboutus-row1-img{
+  background-image: url("images/about-us-doctoroncall.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.aboutus-row3-img{
+  background-image: url("images/AdobeStock_67111396.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 350px;
+} 
+
+.aboutus-second-row-3{
+  padding-top: 45px;
+}
+
+.aboutus-contributedr{
+  font-weight: bold;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.aboutus-contribute-img{
+  height: 130px;
+    width: 130px;
 }
