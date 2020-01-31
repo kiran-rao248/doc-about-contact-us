@@ -826,6 +826,7 @@ padding-left: 3%;
   margin-top: 0;
   margin-left: 3%;
   margin-bottom: 0;
+  padding-top: 25px;
   width: 85%;
 }
 
@@ -883,7 +884,13 @@ padding-left: 3%;
 
 .about-us-position{
   text-align: center;
-}  
+}   
+
+@media(max-width: 576px){
+  .about-us-video iframe{
+    width: 90%;
+  }
+}
 
 @media(min-width:1077px){
   .about-us-second-column-p-header {
